@@ -98,6 +98,11 @@ class student {
   void setHighSchoolName(String h) {
     HighSchoolName = h;
   }
+
+  @override
+  String toString() {
+    return 'mastersStudent\n {name: ${Name}\n admin no: ${Adminno}\n email: ${Email}\n age: ${Age}\n phone number: ${PhoneNumber}\n course: ${Course}\n highschool: ${HighSchoolName}\n undrgrade university: ${undergradUniName}';
+  }
 }
 
 void main() {
@@ -116,6 +121,11 @@ void main() {
       "Daystar University");
 
   print(degreeStudent.Name);
+  print(degreeStudent.Adminno);
+  print(degreeStudent.getEmail());
   degreeStudent.setName("Victoria");
   print(degreeStudent.Name);
+  print(degreeStudent);
+  print(diplomaStudent);
+  print(mastersStudent);
 }
