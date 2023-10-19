@@ -101,7 +101,7 @@ class student {
 
   @override
   String toString() {
-    return 'mastersStudent\n {name: ${Name}\n admin no: ${Adminno}\n email: ${Email}\n age: ${Age}\n phone number: ${PhoneNumber}\n course: ${Course}\n highschool: ${HighSchoolName}\n undrgrade university: ${undergradUniName}';
+    return 'mastersStudent\n name: ${Name}\n admin no: ${Adminno}\n email: ${Email}\n age: ${Age}\n phone number: ${PhoneNumber}\n course: ${Course}\n highschool: ${HighSchoolName}\n undrgrade university: ${undergradUniName}';
   }
 }
 
